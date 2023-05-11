@@ -1,0 +1,35 @@
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+div.container {
+    text-align: center;
+}
+
+ol.myOL {
+    display: inline-block;
+    text-align: left;
+}
+
+header {
+    display: inline-block;
+}
+
+header, main p, main h4 {
+    color: white;
+}
+
+header h1:hover {
+    color: black;
+}
+
+h2.main-para {
+    color: white;
+}
+
+html {
+    background-color: pink;
+    text-align: center;
+}
