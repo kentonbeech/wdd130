@@ -1,0 +1,31 @@
+.row {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    width: 80em;
+    height: 50%;
+}
+
+.row img {
+    border-radius: 50%;
+    border: 10px solid black;
+    width: 200px;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div {
+    align-items: center;
+}
+
+main {
+    background-image: url("https://byui-wdd.github.io/wdd130/ice/w05_circles.jpg");
+    width: fit-content;
+}
+
+body {
+    margin: 0;
+}
