@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.one {
+    grid-column: 1/2;
+}
+.two {
+    grid-column: 2/3;
+}
+.three {
+    grid-column: 3/4;
+}
+
+.img {
+    justify-items: center;
+}
