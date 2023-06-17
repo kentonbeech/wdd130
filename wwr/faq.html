@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FAQ</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/crossedoars.jpeg" alt="Rapids Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="faq.html">FAQ</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
+            </div>
+            <section id="hero-msg">
+                <h1 class="faq-title">Have An Adventure</h1>
+                <h4>Make Memories with Rapids</h4>
+                <div class="button-box">
+                    <a class="book" href="rates.html"><b>Book Now</b></a>
+                </div>
+            </section>
+        </div>
+
+        <!--Code for drop-down lists-->
+        <main>
+            <div class="wrapper">
+                <h1>Frequently Asked Questions</h1>
+
+                <div class="faq">
+                    <button class="question">
+                        Is this a good trip for kids? What are the age ranges you allow?
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                
+                    <div class="answer">
+                        <p>
+                            Absolutely! This is a good trip for children of all ages. We have found however that children over the age of 8 seem to enjoy it more overall. A common concern we get from parents is that their children will be bored stuck on a boat for hours at a time. Surprisingly we deal with very few bored children of any age. The areas we are rafting through are some of the most beautiful in the world, and you never know what you might see around any corner. Each boat also comes equipped with a guide.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="question">
+                        Is whitewater rafting safe? I don't even know how to swim! Can I still come?
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                
+                    <div class="answer">
+                        <p>
+                            As with all adventure sports, there is an inherent and assumed element of risk.
+                        
+                            To help ensure your safety, our guides are all certified in Wilderness First Aid and all start with at least 3 years of rafting experience. The most common injuries are sunburns and injuries that occur on land.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="question">
+                        Is this a good trip for kids? What are the age ranges you allow?
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                
+                    <div class="answer">
+                        <p>
+                            Absolutely! This is a good trip for children of all ages. We have found however that children over the age of 8 seem to enjoy it more overall. A common concern we get from parents is that their children will be bored stuck on a boat for hours at a time. Surprisingly we deal with very few bored children of any age. The areas we are rafting through are some of the most beautiful in the world, and you never know what you might see around any corner. Each boat also comes equipped with a guide.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="question">
+                        Is this a good trip for kids? What are the age ranges you allow?
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                
+                    <div class="answer">
+                        <p>
+                            Absolutely! This is a good trip for children of all ages. We have found however that children over the age of 8 seem to enjoy it more overall. A common concern we get from parents is that their children will be bored stuck on a boat for hours at a time. Surprisingly we deal with very few bored children of any age. The areas we are rafting through are some of the most beautiful in the world, and you never know what you might see around any corner. Each boat also comes equipped with a guide.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <button class="question">
+                        Is this a good trip for kids? What are the age ranges you allow?
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </button>
+                
+                    <div class="answer">
+                        <p>
+                            Absolutely! This is a good trip for children of all ages. We have found however that children over the age of 8 seem to enjoy it more overall. A common concern we get from parents is that their children will be bored stuck on a boat for hours at a time. Surprisingly we deal with very few bored children of any age. The areas we are rafting through are some of the most beautiful in the world, and you never know what you might see around any corner. Each boat also comes equipped with a guide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--JavaScript code for drop-down lists-->
+            <script>
+                var ques = document.getElementsByClassName ("question");
+                var i;
+
+                for (i = 0; i < ques.length; i++) {
+                    ques[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        this.parentElement.classList.toggle("active");
+
+                        var answer = this.nextElementSibling;
+
+                        if (answer.style.display === "block") {answer.style.display = "none";}
+                        else {answer.style.display = "block"}
+                    });
+                }
+            </script>
+
+        </main>
+
+        <hr>
+
+        <div class="more-questions">
+            <h1>Have More Questions?</h1>
+            <h5>Chat with one of our tour guides today!</h5>
+            <a class="chat" href="contactus.html">Let's Chat</a>
+        </div>
+
+        <hr>
+
+        <!--Code for Footer of website-->
+        <footer>
+            <p><b>Rapids &copy; 2023 - <a class="Kenton" href="https://www.facebook.com/kenton.beech.7/" target="_blank">Kenton Beech</a></b></p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a> 
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

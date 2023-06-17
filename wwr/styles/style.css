@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* CSS for index.html */
 
 div.content {
     max-width: 1600px;
@@ -198,6 +199,103 @@ footer .social img {
 #hero-img {
     width: 100%;
 }
+
+
+/* CSS for faq.html */
+
+.faq-title {
+    color: #907A48;
+    font-family: "Rock Salt", "Helvetica", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.wrapper {
+    max-width: 75%;
+    margin: auto;
+}
+.wrapper > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 2rem;
+}
+.question {
+    background-color: #fefae0;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.question i {
+    font-size: 1.6rem;
+}
+.active, .question:hover {
+    background-color: #D4BF88;
+}
+.answer {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #D4BF88;
+    display: none;
+}
+.answer p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+.faq.active {
+    border: none;
+}
+
+/* CSS for "Have More Questions" section */
+
+hr {
+    border: 0;
+    border-top: 2px solid #07234f;
+    height: 2px;
+    width: 50%;
+    margin-top: 4rem;
+}
+.more-questions  {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    align-items:normal;
+}
+.more-questions a {
+    display: block;
+}
+.chat {
+    margin: auto;
+    width: 20%;
+    background-color: #3A4928;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.chat:hover {
+    background-color: #D4BF88;
+    color: #3A4928;
+}
+
+/* CSS for Media Query */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
