@@ -159,11 +159,8 @@ button, input {
     margin: auto;
 }
 
-.nav_logo-text {
-    font-size: 1.125rem;
-    color: var(--title-color);
-    font-weight: var(--font-bold);
-    line-height: 40px;
+.nav_logo_img {
+    border-radius: 50%;
 }
 
 .nav_menu {
@@ -392,7 +389,7 @@ button, input {
 
 .about_img {
     position: relative;
-    width: 400px;
+    width: 60%;
     border-radius: 0.75rem;
     justify-self: center;
     top: -10%;
