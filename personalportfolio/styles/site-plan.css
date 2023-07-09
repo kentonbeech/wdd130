@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 
 :root {
-  hue-color: 242;
+  --hue-color: 242;
   /* change the values below to your colors from your palette */
   --primary-color: hsl(342, 92%, 46%)   ;
   --secondary-color: hsl(var(--hue-color), 19%, 5%) ;
