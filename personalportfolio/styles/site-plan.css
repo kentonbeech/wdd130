@@ -4,11 +4,12 @@ Fonts are separated by a | */
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 
 :root {
+  hue-color: 242;
   /* change the values below to your colors from your palette */
   --primary-color: hsl(342, 92%, 46%)   ;
-  --secondary-color: #219EBC ;
-  --accent1-color: #8ECAE6;
-  --accent2-color: white;
+  --secondary-color: hsl(var(--hue-color), 19%, 5%) ;
+  --accent1-color: hsl(var(--hue-color), 8%, 85%);
+  --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Lora";
